@@ -1,0 +1,27 @@
+.taskform {
+margin: 50px auto;
+max-width: fit-content;
+padding: 40px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.input-container {
+  display: flex;
+  flex-direction: row; 
+  margin: 0 auto;
+  width: fit-content;
+  gap: 10px;
+}
+.input-container label {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.input-container input, .input-container select , .input-container button{
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
